@@ -25,7 +25,9 @@
 - Adaptive Routing Protocol
 - Data Integrity Verification
 - Self-Configuring Network
+
 **Architecture**
+
 Steps included in this are:
 - Start
 - Deploy Nodes and Define Source and Destination Node
@@ -39,5 +41,39 @@ Yes: If the node properties are similar to those seen in a black hole attack, th
 No: If no similarity is detected, the node is considered in the route.
 - Compute Results
 - Stop
+
+  **Technologies Used**
+  
+    Programming Language: Python (3.7.0)
+    Frameworks/Libraries: PyTorch, Django, OpenCV, Matplotlib, NumPy
+    Machine Learning Models: ABC,SVM,ANN
+    Operating System: Windows 8 or above
+
+  **Results**
+
+with propose algorithm we got throughput as 94.84% ,Decision Tree we got 81% ,Random Forest we got 86% 
+we can see predicted attack names or normal. 
+**Testing**
+Types of Testing Implemented:
+
+    - Unit Testing: Ensures individual components work as expected.
+    - Integration Testing: Checks the interaction between different modules.
+    - Functional Testing: Validates the system against defined requirements.
+    - System Testing: Ensures the complete system functions correctly.
+    - Black Box Testing: Verifies output correctness without knowledge of internal code structure.
+
+**Contributors**
+
+   -  A.Amulya (217R1A05K8)
+   - AJV.Swaroop (217R1A05K7)
+   - P.Arun Teja (217R1A05P5)
+
+- Under the guidance of Dr. G.Madhukar
+
+**Future Scope**
+
+Potential future enhancements include:
+- Future research can focus on optimizing artificial intelligence models for resource-constrained ad-hoc network environments. This involves developing lightweight machine learning and deep learning algorithms that consume minimal computational resources and energy while maintaining high performance in terms of robustness and security.
+
 
 
